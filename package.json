@@ -1,0 +1,27 @@
+{
+  "name": "angular_express_mongoose_code_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerij/angular_express_mongoose_code_challenge.git"
+  },
+  "author": "keriajackson@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerij/angular_express_mongoose_code_challenge/issues"
+  },
+  "homepage": "https://github.com/kerij/angular_express_mongoose_code_challenge#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0"
+  }
+}

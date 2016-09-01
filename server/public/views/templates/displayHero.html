@@ -1,0 +1,31 @@
+<section id="heroes">
+        <h2>Hero List</h2>
+
+        <div id="heroList" ng-repeat="hero in heroes">
+
+            <div>
+              <p>
+                {{hero.alias}}
+              </p>
+            </div>
+
+            <div>
+              <p>
+                {{hero.first_name}} {{hero.last_name}}
+              </p>
+            </div>
+
+            <div>
+              <p>
+                {{hero.city}}
+              </p>
+            </div>
+
+            <div>
+              <p>
+                {{hero.power_name}}
+              </p>
+            </div>
+
+              <button class="delete" ng-click="deleteHero(hero._id)">Delete</button>
+        </div>
